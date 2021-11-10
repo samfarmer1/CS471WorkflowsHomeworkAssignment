@@ -13,7 +13,7 @@ import javax.swing.Timer;
 /**
  * CS 121 Project 1: Traffic Animation
  *
- * Animates a [put your description here]
+ * Animates a Submarine and a worm on shore
  *
  * @author BSU CS 121 Instructors
  * @author Samantha Farmer

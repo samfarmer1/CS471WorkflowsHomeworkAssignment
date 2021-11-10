@@ -13,7 +13,7 @@ import javax.swing.Timer;
 /**
  * CS 121 Project 1: Traffic Animation
  *
- * Animates a [put your description here]
+ * Animates a Submarine and a worm on shore
  *
  * @author BSU CS 121 Instructors
  * @author Samantha Farmer
@@ -341,11 +341,15 @@ public class TrafficAnimation extends JPanel
 		//Text "Ahoy!" in my third comment bubble.
 		int x = commentX;
 		int y = commentY + commentHeight / 2 + twoHeight  / 2;
-		String text = "Ahoy!";
+		String text = "Ahoy there!";
+		
+		
 		
 		g.setColor(Color.BLACK);
 		g.setFont(new Font ("Arial", Font.BOLD, 50));
 		g.drawString(text, x, y);
+		
+		
 		
 		// Put your code above this line. This makes the drawing smoother.
 		Toolkit.getDefaultToolkit().sync();

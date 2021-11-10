@@ -1,0 +1,28 @@
+# Project 0: Traffic Animation
+
+* Author: Samantha Farmer
+* Class: CS121 Section 6
+* Semester: Fall 2019
+
+## Overview
+
+This Java application presents an animated submarine with four windows,
+a scope, and propeller. The submarine in floating in a river with a man 
+shouting "Ahoy!" on the shore with a sun in the sky.
+
+## Compiling and Using
+
+To compile, execute the following command in the main project directory:
+$ javac TrafficAnimation.java
+
+Run the compiled class with the command:
+$ java TrafficAnimation
+
+## Sources used
+
+I found code for creating a stick figure on stackoverflow.com.
+
+----------
+This README template is using Markdown. To preview your README output,
+you can copy your file contents to a Markdown editor/previewer such
+as [https://stackedit.io/editor](https://stacked

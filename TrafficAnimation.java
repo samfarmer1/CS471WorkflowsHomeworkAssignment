@@ -341,11 +341,15 @@ public class TrafficAnimation extends JPanel
 		//Text "Ahoy!" in my third comment bubble.
 		int x = commentX;
 		int y = commentY + commentHeight / 2 + twoHeight  / 2;
-		String text = "Ahoy!";
+		String text = "Ahoy there!";
+		
+		
 		
 		g.setColor(Color.BLACK);
 		g.setFont(new Font ("Arial", Font.BOLD, 50));
 		g.drawString(text, x, y);
+		
+		
 		
 		// Put your code above this line. This makes the drawing smoother.
 		Toolkit.getDefaultToolkit().sync();
